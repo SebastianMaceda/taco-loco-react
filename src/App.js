@@ -9,11 +9,10 @@ function App() {
     <Router>
         <Navbar />
       <Switch>
-        <Home path='/' component={Home} />
+        <Route path='/' component={Home} />
       </Switch>
     </Router>
   );
 }
 
 export default App;
-// Sneak Line of code

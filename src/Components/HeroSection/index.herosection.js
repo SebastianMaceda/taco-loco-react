@@ -1,16 +1,16 @@
 import React from 'react'
 import { HeroContainer, HeroOverlay, HeroTextContainer, HeroLogo, HeroSubtext, HeroBtnContainer, HeroBtnOne, HeroBtnTwo } from "./herosection.elements";
 
-const HeroSection = ({img}) => {
+const HeroSection = ({heroLogo, heroSubtext, heroBtnOne, heroBtnTwo}) => {
     return (
-        <HeroContainer src={img}>
+        <HeroContainer>
             <HeroOverlay>
                 <HeroTextContainer>
-                    <HeroLogo></HeroLogo>
-                    <HeroSubtext></HeroSubtext>
+                    <HeroLogo>{heroLogo}</HeroLogo>
+                    <HeroSubtext>{heroSubtext}</HeroSubtext>
                     <HeroBtnContainer>
-                        <HeroBtnOne></HeroBtnOne>
-                        <HeroBtnTwo></HeroBtnTwo>
+                        <HeroBtnOne>{heroBtnOne}</HeroBtnOne>
+                        <HeroBtnTwo>{heroBtnTwo}</HeroBtnTwo>
                     </HeroBtnContainer>
                 </HeroTextContainer>
             </HeroOverlay>

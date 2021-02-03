@@ -7,7 +7,9 @@ export const TopNavbar = styled.div`
     flex-direction: row;
     background-color: #FFFCF2;
     padding: 10px 40px;
-
+    z-index: 999;
+    width: 100%;
+    position: fixed;
     @media screen and (max-width: 400px) {
         padding: 10px;
     }
