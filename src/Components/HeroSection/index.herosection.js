@@ -31,4 +31,4 @@ const HeroSection = ({heroLogo, heroSubtext, heroBtnOne, heroBtnTwo, iconOne, ic
     )
 }
 
-export default HeroSection
+export default HeroSection;

@@ -100,12 +100,13 @@ export const Hours = styled.h5`
 
 export const LocationGoogleMapsContainer = styled.div`
     flex: 1;
-    min-height: 50vh;
+    height: 50vh;
     background-color: #000;
 `
 
 export const GoogleMapsIframe = styled.iframe`
-    min-height: inherit;
+    min-height: 100%;
     width: 100%;
     opacity: 90%;
+
 `

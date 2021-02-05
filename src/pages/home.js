@@ -1,4 +1,6 @@
 import React from 'react'
+import { AboutSectionData } from '../Components/AboutSection/data.aboutsection'
+import AboutSection from '../Components/AboutSection/index.aboutsection'
 import { HomeHeroSection } from '../Components/HeroSection/data.herosection'
 import HeroSection from '../Components/HeroSection/index.herosection'
 import { LocationSectionData } from '../Components/LocationSection/data.location'
@@ -8,7 +10,8 @@ const Home = () => {
     return (
         <>
          <HeroSection {...HomeHeroSection}/>
-         <LocationSection {...LocationSectionData}/>  
+         <LocationSection {...LocationSectionData}/>
+         <AboutSection {...AboutSectionData}/>
         </>
     )
 }
