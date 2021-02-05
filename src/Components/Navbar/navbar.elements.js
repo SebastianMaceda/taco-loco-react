@@ -29,6 +29,7 @@ export const Logo = styled.h1`
     text-align: left;
     @media screen and (max-width: 450px){
         flex: 2;
+        -webkit-text-stroke: .2px #000;
     }
 `
 export const NavbarContainer = styled.nav`

@@ -6,25 +6,27 @@ export const HeroContainer = styled.section`
     height: 100vh;
     width: 100%;
     background-image: url(${img});
-    background-position: 70% 70%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
 `
 
 export const HeroOverlay = styled.div`
-    display: block;
+    display: flex;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, .9);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 `
 
 export const HeroTextContainer = styled.div`
     position: absolute;
     transform: translateY(-40px);
+    flex: 9;
 `
 
 export const HeroLogo = styled.h2`
@@ -52,6 +54,8 @@ export const HeroBtnContainer = styled.div`
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     text-align: center;
+    position: relative;
+    transform: translateX(20px);
     width: 90%;
 `
 
@@ -84,4 +88,53 @@ export const HeroBtnTwo = styled.div`
         transform: scale(1.1);
         transition: 350ms;
     }
+`
+
+export const BottomTextContainer = styled.div`
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    padding-bottom: 20px;
+
+    @media screen and (max-width: 550px) {
+        flex-direction: column;
+    }
+`
+export const BottomText = styled.div`
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 40px;
+    align-items: center;
+    flex-direction: ${({helloWorld}) => (helloWorld ? 'row' : 'row-reverse')};
+    color: #ccc;
+    @media screen and (max-width: 550px) {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+`
+
+export const Icon = styled.span`
+    font-size: 18px;
+`
+
+export const BottomTextArea = styled.p`
+    font-family: 'Lato', san-serif;
+    font-size: 14px;
+    font-weight: 900;
+    display: flex;
+`
+
+export const SmallLine = styled.span`
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    margin: auto 5px;
 `
