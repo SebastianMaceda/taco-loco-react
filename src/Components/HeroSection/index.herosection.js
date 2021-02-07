@@ -1,6 +1,5 @@
 import React from 'react'
 import { HeroContainer, HeroOverlay, HeroTextContainer, HeroLogo, HeroSubtext, HeroBtnContainer, HeroBtnOne, HeroBtnTwo, BottomTextContainer, BottomText, Icon, BottomTextArea, SmallLine } from "./herosection.elements";
-import { FaBars } from "react-icons/fa";
 
 const HeroSection = ({heroLogo, heroSubtext, heroBtnOne, heroBtnTwo, iconOne, iconTwo, bottomTextOne, bottomTextTwo}) => {
     return (

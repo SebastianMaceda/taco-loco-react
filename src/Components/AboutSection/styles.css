@@ -1,0 +1,8 @@
+@media screen and (max-width: 1100px){
+    .row2{
+        background-image: url('../../images/tacoTruckSide.JPEG');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

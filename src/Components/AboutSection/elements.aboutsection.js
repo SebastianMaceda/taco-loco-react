@@ -9,6 +9,9 @@ export const Row1 = styled.div`
     height: 60vh;
     flex: 1;
     background-color: ${({darkBgc}) => (darkBgc ? '#403D39' : '#CCC5B9')};
+    @media screen and (max-width: 1100px){
+        display: none;
+    }
 `
 export const RowImg = styled.img`
     height: 60vh;
@@ -30,7 +33,7 @@ export const Row2 = styled.div`
 export const RowTextContainer = styled.div`
     border: ${({darkBorder}) =>  (darkBorder ? '#403D39 1px solid' : '#CCC5B9 1 solid')};
     background-color: ${({darkBgc}) => (darkBgc ? '#403D39' : '#CCC5B9')};
-    width: 90%;
+    width: 100%;
     height: 70%;
     position: relative;
     left:  ${({containerAlignment}) => (containerAlignment ? '20%' : '-20%')};
@@ -38,6 +41,19 @@ export const RowTextContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 1150px) {
+        width: 135%;
+    }
+    @media screen and (max-width: 1100px){
+        left: 0;
+        width: 90%;
+    }
+    @media screen and (max-width: 650px){
+        width: 100%;
+    }
+    @media screen and (max-width: 500px){
+        height: 90%;
+    }    
 `
 
 export const Header = styled.h2`
