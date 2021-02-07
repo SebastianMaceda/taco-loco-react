@@ -5,6 +5,8 @@ import { HomeHeroSection } from '../Components/HeroSection/data.herosection'
 import HeroSection from '../Components/HeroSection/index.herosection'
 import { LocationSectionData } from '../Components/LocationSection/data.location'
 import LocationSection from '../Components/LocationSection/index.location'
+import { ReviewsData, ReviewElementsData } from '../Components/Reviews/data.reviews'
+import Reviews from '../Components/Reviews/index.reviews'
 
 const Home = () => {
     return (
@@ -12,6 +14,7 @@ const Home = () => {
          <HeroSection {...HomeHeroSection}/>
          <LocationSection {...LocationSectionData}/>
          <AboutSection {...AboutSectionData}/>
+         <Reviews {...ReviewsData} {...ReviewElementsData}/>
         </>
     )
 }
