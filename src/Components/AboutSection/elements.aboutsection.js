@@ -50,10 +50,9 @@ export const RowTextContainer = styled.div`
     }
     @media screen and (max-width: 650px){
         width: 100%;
+        height: 100%;
+        background-color: rgba(204, 197, 185, .95);
     }
-    @media screen and (max-width: 500px){
-        height: 90%;
-    }    
 `
 
 export const Header = styled.h2`

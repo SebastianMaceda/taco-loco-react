@@ -19,14 +19,12 @@ const Reviews = ({header, darkBgc, darkHeader, darkText}) => {
       <ReviewSection darkBgc={darkBgc}>
         <Header darkHeader={darkHeader}>{header}</Header>
         <FaIcon />
-        <Slider {...settings}>
+        <Slider {...settings} className="slider">
         {ReviewsData.map( index => {
             return (
                 <Slide key={index} darkText={darkText}>
                     <Review>{index.reviewText}</Review>
-                    <ReviewLocation>
-                        <Reviewer>{index.reviewer} </Reviewer>
-                    </ReviewLocation>
+                    <Reviewer>{index.reviewer} </Reviewer>
                 </Slide>
             )
         })}

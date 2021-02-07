@@ -21,6 +21,7 @@ export const Header = styled.h2`
     justify-content: center;
     align-items: center;
     font-size: 32px;
+    padding: 30px 0;
 `
 
 export const FaIcon = styled(FaQuoteLeft)`
@@ -37,10 +38,10 @@ export const FaIcon = styled(FaQuoteLeft)`
 
 export const Slide = styled.li`
     overflow: hidden;
-    margin: auto;
     text-align: center;
     color: ${({darkText}) => (darkText ? '#322F2C' : '#CCC5B9')};
     outline: none;
+    height: 15vh;
 `
 
 export const Review = styled.p`
@@ -59,27 +60,13 @@ export const Review = styled.p`
     }
 `
 
-export const ReviewLocation = styled.div`
-    display: flex;
-    margin: auto;
-    width: 90%;
-    margin-top: 20px;
-`
 
 export const Reviewer = styled.h5`
-    flex: 1;
+    flex: 3;
     line-height: 48px;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-style: italic;
-`
-
-export const ReviewOrigin = styled.h5`
-    flex: 1;
-    line-height: 48px;
-    text-align: left;
-    vertical-align: bottom;
-    font-size: 16px;
-    font-family: 'Lato'
+    margin-top: 15px;
 `
