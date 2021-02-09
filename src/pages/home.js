@@ -1,6 +1,8 @@
 import React from 'react'
 import { AboutSectionData } from '../Components/AboutSection/data.aboutsection'
 import AboutSection from '../Components/AboutSection/index.aboutsection'
+import { GalleryStyleData } from '../Components/GallerySection/data.gallery'
+import GallerySection from '../Components/GallerySection/index.gallery'
 import { HomeHeroSection } from '../Components/HeroSection/data.herosection'
 import HeroSection from '../Components/HeroSection/index.herosection'
 import { LocationSectionData } from '../Components/LocationSection/data.location'
@@ -15,6 +17,7 @@ const Home = () => {
          <LocationSection {...LocationSectionData}/>
          <AboutSection {...AboutSectionData}/>
          <Reviews {...ReviewsData} {...ReviewElementsData}/>
+         <GallerySection {...GalleryStyleData}/>
         </>
     )
 }

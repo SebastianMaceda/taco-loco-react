@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Navbar from './Components/Navbar/index.navbar'
 import Home from './pages/home'
 
+
 function App() {
   return (
     <Router>

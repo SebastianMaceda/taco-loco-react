@@ -1,0 +1,10 @@
+.slider {
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+}
+.slick-slide div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

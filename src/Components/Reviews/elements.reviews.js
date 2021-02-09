@@ -37,7 +37,7 @@ export const FaIcon = styled(FaQuoteLeft)`
 `
 
 export const Slide = styled.li`
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: center;
     color: ${({darkText}) => (darkText ? '#322F2C' : '#CCC5B9')};
     outline: none;
