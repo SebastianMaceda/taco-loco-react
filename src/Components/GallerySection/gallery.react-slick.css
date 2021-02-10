@@ -3,6 +3,12 @@
     height: 80%;
     overflow: hidden;
 }
+.slick-dots li::after {
+    outline: none;
+}
+.slick-dots li:checked{
+    border: none;
+}
 .slick-slide div {
     display: flex;
     justify-content: center;

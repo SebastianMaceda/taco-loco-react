@@ -19,9 +19,9 @@ export const SlideImg = styled.div`
     height: 50vh;
     margin: auto;
     background: ${({backgroundSample}) => 
-        backgroundSample == 0 && `url(${img1})` ||
-        backgroundSample == 1 && `url(${img2})` ||
-        backgroundSample == 2 && `url(${img3})` ||
+        backgroundSample === 0 && `url(${img1})` ||
+        backgroundSample === 1 && `url(${img2})` ||
+        backgroundSample === 2 && `url(${img3})` ||
         null
     };
     background-position: 50% 70%;
