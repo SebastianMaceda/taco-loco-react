@@ -41,7 +41,8 @@ export const Slide = styled.li`
     text-align: center;
     color: ${({darkText}) => (darkText ? '#322F2C' : '#CCC5B9')};
     outline: none;
-    height: 15vh;
+    min-height: 15vh;
+    /* margin-bottom: 15px; */
 `
 
 export const Review = styled.p`
