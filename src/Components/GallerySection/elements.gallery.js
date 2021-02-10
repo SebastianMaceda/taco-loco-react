@@ -16,7 +16,7 @@ export const Container = styled.section`
 export const SlideImg = styled.div`
     /* max-height: 90%; */
     max-width: 80%;
-    height: 50vh;
+    min-height: 50vh;
     margin: auto;
     background: ${({backgroundSample}) => 
         backgroundSample === 0 && `url(${img1})` ||
@@ -26,5 +26,10 @@ export const SlideImg = styled.div`
     };
     background-position: 50% 70%;
     background-size: cover;
+    position: relative;
 
+    @media screen and (max-width: 768px){
+        max-width: 100%;
+        height: 50vh;
+    }
 `

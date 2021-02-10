@@ -12,6 +12,9 @@ export const Row1 = styled.div`
     @media screen and (max-width: 1100px){
         display: none;
     }
+    @media screen and (max-width: 550px) {
+        padding: 20px 0 0 0;
+    }
 `
 export const RowImg = styled.img`
     height: 60vh;
@@ -80,4 +83,7 @@ export const Text = styled.p`
     color: ${({darkText}) => (darkText ? '#5E5E5E' : '#CCC5B9')};
     font-size: 24px;
     font-family: 'Lato', sans-serif;
+    @media screen and (max-width: 550px) {
+        padding: 0 0 20px 0;
+    }
 ` 
