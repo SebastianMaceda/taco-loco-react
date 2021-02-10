@@ -16,8 +16,8 @@ const Home = () => {
          <HeroSection {...HomeHeroSection}/>
          <LocationSection {...LocationSectionData}/>
          <AboutSection {...AboutSectionData}/>
-         <Reviews {...ReviewsData} {...ReviewElementsData}/>
          <GallerySection {...GalleryStyleData}/>
+         <Reviews {...ReviewsData} {...ReviewElementsData}/>
         </>
     )
 }
