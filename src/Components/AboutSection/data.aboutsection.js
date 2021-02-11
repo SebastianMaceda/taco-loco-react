@@ -1,7 +1,7 @@
 export const AboutSectionData = {
     imgStart: true,
     containerPosition: false,
-    rowImgSrc: require('../../images/tacoTruckSide.JPEG').default,
+    rowImgSrc: require('../../images/tacoTruckSide.png').default,
     rowOneDarkBgc: true,
     rowTwoDarkBgc: false,
     darkBorderOne: true,
