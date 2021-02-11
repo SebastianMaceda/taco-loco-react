@@ -1,14 +1,14 @@
 import React from 'react'
 import { HeroContainer, HeroOverlay, HeroTextContainer, HeroLogo, HeroSubtext, HeroBtnContainer, HeroBtnOne, HeroBtnTwo, BottomTextContainer, BottomText, Icon, BottomTextArea, SmallLine } from "./herosection.elements";
 
-const HeroSection = ({heroLogo, heroSubtext, heroBtnOne, heroBtnTwo, iconOne, iconTwo, bottomTextOne, bottomTextTwo}) => {
+const HeroSection = ({heroLogo, heroSubtext, heroBtnOne, heroBtnTwo, iconOne, iconTwo, bottomTextOne, bottomTextTwo, showBtn}) => {
     return (
         <HeroContainer>
             <HeroOverlay>
                 <HeroTextContainer>
                     <HeroLogo>{heroLogo}</HeroLogo>
                     <HeroSubtext>{heroSubtext}</HeroSubtext>
-                    <HeroBtnContainer>
+                    <HeroBtnContainer show={showBtn}>
                         <HeroBtnOne>{heroBtnOne}</HeroBtnOne>
                         <HeroBtnTwo>{heroBtnTwo}</HeroBtnTwo>
                     </HeroBtnContainer>

@@ -11,6 +11,10 @@ export const ReviewSection = styled.section`
     align-items: center;
     width: 100%;
     overflow: hidden;
+
+    @media screen and (max-width: 550px) {
+        padding-bottom: 40px;
+    }
 `
 
 export const Header = styled.h2`

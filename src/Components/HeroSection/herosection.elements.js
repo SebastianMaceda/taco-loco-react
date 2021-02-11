@@ -48,7 +48,7 @@ export const HeroSubtext = styled.p`
 `
 
 export const HeroBtnContainer = styled.div`
-    display: grid;
+    display: ${({show}) => (show ? 'grid' : 'none')};
     grid-template-columns: auto auto;
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
