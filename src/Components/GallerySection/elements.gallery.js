@@ -14,7 +14,6 @@ export const Container = styled.section`
 `
 
 export const SlideImg = styled.div`
-    /* max-height: 90%; */
     max-width: 80%;
     min-height: 50vh;
     margin: auto;
