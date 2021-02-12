@@ -103,13 +103,5 @@ export const ExtrasMenuData = [
     {
         foodType: 'Corn Taco',
         foodPrice: '$2.50',
-    },
-    {
-        foodType: 'Corn Taco',
-        foodPrice: '$2.50',
-    },
-    {
-        foodType: 'Corn Taco',
-        foodPrice: '$2.50',
     }
 ]

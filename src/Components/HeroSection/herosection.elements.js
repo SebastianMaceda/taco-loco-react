@@ -123,6 +123,7 @@ export const BottomText = styled.div`
 
 export const Icon = styled.span`
     font-size: 18px;
+    padding: 0 5px;
 `
 
 export const BottomTextArea = styled.p`
@@ -137,4 +138,8 @@ export const SmallLine = styled.span`
     height: 1px;
     background-color: white;
     margin: auto 5px;
+
+    @media screen and (max-width: 500px) {
+        display: none;
+    }
 `

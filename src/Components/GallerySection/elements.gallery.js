@@ -1,4 +1,4 @@
-import img1 from '../../images/tacoTruckSide.png'
+import img1 from '../../images/tacoTruckSide.JPEG'
 import img2 from '../../images/tacoTruckFront.jpg'
 import img3 from '../../images/tacoTruckDowntown.jpg'
 
