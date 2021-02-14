@@ -3,6 +3,9 @@
     height: 80%;
     overflow: hidden;
 }
+.slick-dots {
+    top: 25px;
+}
 @media screen and (max-width: 768px){
     .slick-dots:nth-child(1) {
         bottom: 50px;

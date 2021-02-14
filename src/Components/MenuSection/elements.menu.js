@@ -8,7 +8,6 @@ export const MenuSectionContainer = styled.section`
     justify-content: center;
     align-items: center; */
 `
-
 export const Container = styled.div`
     margin: auto;
     max-width: 1100px;

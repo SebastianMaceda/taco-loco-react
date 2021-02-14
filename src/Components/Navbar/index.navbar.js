@@ -21,7 +21,7 @@ const Navbar = () => {
                         {NavbarData.map(index => {
                             return (
                                 <NavList key={index}>
-                                    <NavLink to={index.path}>{index.title}</NavLink>
+                                    <NavLink to={index.path} onClick={toggle}>{index.title}</NavLink>
                                 </NavList>
                             )
                         })}

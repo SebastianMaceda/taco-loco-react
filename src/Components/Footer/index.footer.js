@@ -6,7 +6,6 @@ const FooterSection = ({locationAddress, locationCity, locationPhoneNumber}) => 
 
     const curDate = new Date();
     const curYear = curDate.getFullYear(); 
-    const space = " ";
     
     return (
         <Footer>
@@ -17,7 +16,7 @@ const FooterSection = ({locationAddress, locationCity, locationPhoneNumber}) => 
                     {FooterDataLinks.map((index, indivLink) => {
                         return (
                             <SiteMapListItem>
-                                <SiteMapLink key={indivLink} >{index.link}</SiteMapLink>
+                                <SiteMapLink key={indivLink} to={index.path}>{index.link}</SiteMapLink>
                             </SiteMapListItem>
                         )
                     })}

@@ -20,21 +20,21 @@ export const RowImg = styled.img`
     height: 60vh;
     width: 100%;
     object-fit: cover;
-    opacity: 70%;
+    opacity: 90%;
 `
 
 export const Row2 = styled.div`
     flex: 1;
     height: 60vh;
     width: 100%;
-    background-color: ${({darkBgc}) => (darkBgc ? '#403D39' : '#CCC5B9')};
+    background-color: ${({darkBgc}) => (darkBgc ? '#383632' : '#CCC5B9')};
     display: flex;
     justify-content: center;
     align-items: center;
 `
 
 export const RowTextContainer = styled.div`
-    border: ${({darkBorder}) =>  (darkBorder ? '#403D39 1px solid' : '#CCC5B9 1 solid')};
+    border: ${({darkBorder}) =>  (darkBorder ? '#403D39 1px solid' : '#CCC5B9 1px solid')};
     background-color: ${({darkBgc}) => (darkBgc ? '#403D39' : '#CCC5B9')};
     width: 100%;
     height: 70%;
@@ -54,7 +54,7 @@ export const RowTextContainer = styled.div`
     @media screen and (max-width: 650px){
         width: 100%;
         height: 100%;
-        background-color: rgba(204, 197, 185, .95);
+        /* background-color: rgba(204, 197, 185, .95); */
     }
 `
 
