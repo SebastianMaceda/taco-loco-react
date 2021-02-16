@@ -7,6 +7,7 @@ import FooterSection from './Components/Footer/index.footer';
 import { FooterDataLocation } from './Components/Footer/data.footer'
 import MenuPage from './pages/menu';
 import AboutPage from './pages/about';
+import Contact from './pages/contact';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/menu' component={MenuPage} />
         <Route path='/about' component={AboutPage} />
+        <Route path='/contact' component={Contact} />
       </Switch>
       <FooterSection {...FooterDataLocation}/>
     </Router>

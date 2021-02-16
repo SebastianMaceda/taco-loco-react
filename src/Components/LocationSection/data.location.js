@@ -34,5 +34,10 @@ export const LocationSectionData = {
     locationHeaderAddress: '1401 Fremont Street',
     locationHeaderCity: 'Des Moines, Iowa 50316',
     locationHeaderPhone: '(515) 262 - 7777',
-    openHoursHeader: 'Open Hours: '
+    openHoursHeader: 'Open Hours: ',
+    reverseThing: true
+}
+
+export const LocationSectionDataFlip = {
+    reverseThing: false
 }

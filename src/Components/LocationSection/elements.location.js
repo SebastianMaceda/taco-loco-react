@@ -5,6 +5,7 @@ export const LocationSectionContainer = styled.section`
     /* height: 50vh; */
     width: 100%;
     display: flex;
+    flex-direction: ${({flexFlip}) => (flexFlip ? 'row' : 'row-reverse')};
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }
